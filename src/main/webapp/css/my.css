@@ -1,0 +1,25 @@
+.accounts-per-page-wrapper{
+    margin: 20px 0;
+}
+
+
+.players-table {
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+
+.header-cell {
+    border: 1px solid black;
+    min-width: auto;
+    padding: 5px;
+}
+
+.cell {
+    border: 1px solid black;
+
+}
+
+.cell-min {
+    min-width: auto;
+}
+
