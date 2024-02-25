@@ -23,3 +23,57 @@
     min-width: auto;
 }
 
+.pagination-buttons{
+    min-width: fit-content;
+
+}
+
+.active-pagination-button{
+    color:red;
+}
+
+.edit-image, .delete-image{
+    width: 40px;
+    height: 40px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.pagination-wrapper{
+    margin: 20px 0;
+}
+button {
+    background-color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.create-form{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.create-field{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.save-button{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 15px;
+    color:white;
+    background-color: blue;
+    width: 100%;
+}
